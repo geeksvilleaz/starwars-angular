@@ -1,0 +1,98 @@
+<div class="detail">
+  <h2>{{person.name}}</h2>
+
+  <div>
+    <span class="label">Birth Year</span>
+    <span class="value">{{person.birth_year}}</span>
+  </div>
+
+  <div>
+    <span class="label">Eye Color</span>
+    <span class="value">{{person.eye_color}}</span>
+  </div>
+
+  <div>
+    <span class="label">Films</span>
+    <span class="value">
+      <app-item-collection
+          [list]="person.films"
+          category="films"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Gender</span>
+    <span class="value">{{person.gender}}</span>
+  </div>
+
+  <div>
+    <span class="label">Hair Color</span>
+    <span class="value">{{person.hair_color}}</span>
+  </div>
+
+  <div>
+    <span class="label">Height</span>
+    <span class="value">{{person.height}}</span>
+  </div>
+
+  <div>
+    <span class="label">Homeworld</span>
+    <span class="value">
+      <app-item-collection
+          [list]="[person.homeworld]"
+          category="planets"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Mass</span>
+    <span class="value">{{person.mass}}</span>
+  </div>
+
+  <div>
+    <span class="label">Name</span>
+    <span class="value">{{person.name}}</span>
+  </div>
+
+  <div>
+    <span class="label">Skin Color</span>
+    <span class="value">{{person.skin_color}}</span>
+  </div>
+
+  <div>
+    <span class="label">Species</span>
+    <span class="value">
+      <app-item-collection
+          [list]="[person.species]"
+          category="species"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Starships</span>
+    <span class="value">
+      <app-item-collection
+          [list]="person.starships"
+          category="starships"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Vehicles</span>
+    <span class="value">
+      <app-item-collection
+          [list]="person.vehicles"
+          category="vehicles"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+</div>

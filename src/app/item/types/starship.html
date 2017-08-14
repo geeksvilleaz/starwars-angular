@@ -1,0 +1,89 @@
+<div class="detail">
+  <h2>{{starship.name}}</h2>
+  <div>
+    <span class="label">MGLT</span>
+    <span class="value">{{starship.MGLT}}</span>
+  </div>
+
+  <div>
+    <span class="label">Cargo Capacity</span>
+    <span class="value">{{starship.cargo_capacity}}</span>
+  </div>
+
+  <div>
+    <span class="label">Consumables</span>
+    <span class="value">{{starship.consumables}}</span>
+  </div>
+
+  <div>
+    <span class="label">Cost In Credits</span>
+    <span class="value">{{starship.cost_in_credits}}</span>
+  </div>
+
+  <div>
+    <span class="label">Crew</span>
+    <span class="value">{{starship.crew}}</span>
+  </div>
+
+  <div>
+    <span class="label">Films</span>
+    <span class="value">
+      <app-item-collection
+          [list]="starship.films"
+          category="films"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Hyperdrive Rating</span>
+    <span class="value">{{starship.hyperdrive_rating}}</span>
+  </div>
+
+  <div>
+    <span class="label">Length</span>
+    <span class="value">{{starship.length}}</span>
+  </div>
+
+  <div>
+    <span class="label">Manufacturer</span>
+    <span class="value">{{starship.manufacturer}}</span>
+  </div>
+
+  <div>
+    <span class="label">Max Atmosphering Speed</span>
+    <span class="value">{{starship.max_atmosphering_speed}}</span>
+  </div>
+
+  <div>
+    <span class="label">Model</span>
+    <span class="value">{{starship.model}}</span>
+  </div>
+
+  <div>
+    <span class="label">Name</span>
+    <span class="value">{{starship.name}}</span>
+  </div>
+
+  <div>
+    <span class="label">Passengers</span>
+    <span class="value">{{starship.passengers}}</span>
+  </div>
+
+  <div>
+    <span class="label">Pilots</span>
+    <span class="value">
+      <app-item-collection
+          [list]="starship.pilots"
+          category="people"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Starship Class</span>
+    <span class="value">{{starship.starship_class}}</span>
+  </div>
+</div>

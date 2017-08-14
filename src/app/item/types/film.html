@@ -1,0 +1,93 @@
+<div class="detail">
+  <h2>{{film.title}}</h2>
+
+  <div>
+    <span class="label">Characters</span>
+    <span class="value">
+      <app-item-collection
+          [list]="film.characters"
+          category="people"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Director</span>
+    <span class="value">{{film.director}}</span>
+  </div>
+
+  <div>
+    <span class="label">Episode Id</span>
+    <span class="value">{{film.episode_id}}</span>
+  </div>
+
+  <div>
+    <span class="label">Opening Crawl</span>
+    <span class="value">{{film.opening_crawl}}</span>
+  </div>
+
+  <div>
+    <span class="label">Director</span>
+    <span class="value">{{film.director}}</span>
+  </div>
+
+  <div>
+    <span class="label">Planets</span>
+    <span class="value">
+      <app-item-collection
+          [list]="film.planets"
+          category="planets"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Producer</span>
+    <span class="value">{{film.producer}}</span>
+  </div>
+
+  <div>
+    <span class="label">Release Date</span>
+    <span class="value">{{film.release_date}}</span>
+  </div>
+
+  <div>
+    <span class="label">Species</span>
+    <span class="value">
+      <app-item-collection
+          [list]="film.species"
+          category="species"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Starships</span>
+    <span class="value">
+      <app-item-collection
+          [list]="film.starships"
+          category="starships"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Title</span>
+    <span class="value">{{film.title}}</span>
+  </div>
+
+  <div>
+    <span class="label">Vehicles</span>
+    <span class="value">
+      <app-item-collection
+          [list]="film.vehicles"
+          category="vehicles"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+</div>

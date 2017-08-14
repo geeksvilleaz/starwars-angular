@@ -1,0 +1,37 @@
+<div class="detail">
+  <app-person
+      *ngIf="category === 'people'"
+      [person]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-person>
+
+  <app-planet
+      *ngIf="category === 'planets'"
+      [planet]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-planet>
+
+  <app-film
+      *ngIf="category === 'films'"
+      [film]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-film>
+
+  <app-species
+      *ngIf="category === 'species'"
+      [species]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-species>
+
+  <app-vehicle
+      *ngIf="category === 'vehicles'"
+      [vehicle]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-vehicle>
+
+  <app-starship
+      *ngIf="category === 'starships'"
+      [starship]="data"
+      (displayItem)="handleDisplayItem($event)">
+  </app-starship>
+</div>

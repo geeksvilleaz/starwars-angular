@@ -1,0 +1,79 @@
+<div class="detail">
+  <h2>{{vehicle.name}}</h2>
+  <div>
+    <span class="label">Cargo Capacity</span>
+    <span class="value">{{vehicle.cargo_capacity}}</span>
+  </div>
+
+  <div>
+    <span class="label">Consumables</span>
+    <span class="value">{{vehicle.consumables}}</span>
+  </div>
+
+  <div>
+    <span class="label">Cost In Credits</span>
+    <span class="value">{{vehicle.cost_in_credits}}</span>
+  </div>
+
+  <div>
+    <span class="label">Crew</span>
+    <span class="value">{{vehicle.crew}}</span>
+  </div>
+
+  <div>
+    <span class="label">Films</span>
+    <span class="value">
+      <app-item-collection
+          [list]="vehicle.films"
+          category="films"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Length</span>
+    <span class="value">{{vehicle.length}}</span>
+  </div>
+
+  <div>
+    <span class="label">Manufacturer</span>
+    <span class="value">{{vehicle.manufacturer}}</span>
+  </div>
+
+  <div>
+    <span class="label">Max Atmosphering Speed</span>
+    <span class="value">{{vehicle.max_atmosphering_speed}}</span>
+  </div>
+
+  <div>
+    <span class="label">Model</span>
+    <span class="value">{{vehicle.model}}</span>
+  </div>
+
+  <div>
+    <span class="label">Name</span>
+    <span class="value">{{vehicle.name}}</span>
+  </div>
+
+  <div>
+    <span class="label">Passengers</span>
+    <span class="value">{{vehicle.passengers}}</span>
+  </div>
+
+  <div>
+    <span class="label">Pilots</span>
+    <span class="value">
+      <app-item-collection
+          [list]="vehicle.pilots"
+          category="people"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Vehicle Class</span>
+    <span class="value">{{vehicle.vehicle_class}}</span>
+  </div>
+</div>

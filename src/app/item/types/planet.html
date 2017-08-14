@@ -1,0 +1,65 @@
+<div class="detail">
+  <h2>{{planet.name}}</h2>
+
+  <div>
+    <span class="label">Climate</span>
+    <span class="value">{{planet.climate}}</span>
+  </div>
+
+  <div>
+    <span class="label">Diameter</span>
+    <span class="value">{{planet.diameter}}</span>
+  </div>
+
+  <div>
+    <span class="label">Films</span>
+    <span class="value">
+      <app-item-collection
+          [list]="planet.films"
+          category="films"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Gravity</span>
+    <span class="value">{{planet.gravity}}</span>
+  </div>
+
+  <div>
+    <span class="label">Orbital Period</span>
+    <span class="value">{{planet.orbital_period}}</span>
+  </div>
+
+  <div>
+    <span class="label">Population</span>
+    <span class="value">{{planet.population}}</span>
+  </div>
+
+  <div>
+    <span class="label">Residence</span>
+    <span class="value">
+      <app-item-collection
+          [list]="planet.residence"
+          category="people"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Rotation Period</span>
+    <span class="value">{{planet.rotation_period}}</span>
+  </div>
+
+  <div>
+    <span class="label">Service Water</span>
+    <span class="value">{{planet.service_water}}</span>
+  </div>
+
+  <div>
+    <span class="label">Terrain</span>
+    <span class="value">{{planet.terrain}}</span>
+  </div>
+</div>

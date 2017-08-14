@@ -1,0 +1,12 @@
+<nav>
+  <h3>Browse</h3>
+  <ul>
+    <li *ngFor="let item of menu">
+      <button
+          [ngClass]="{'active': activeUrl === item.url}"
+          (click)="showList(item.url)">
+        {{item.name}}
+      </button>
+    </li>
+  </ul>
+</nav>

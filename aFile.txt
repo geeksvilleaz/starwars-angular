@@ -1,0 +1,192 @@
+Hash: [1me09abf97165e1118879e[39m[22m
+Version: webpack [1m2.2.1[39m[22m
+Time: [1m9872[39m[22mms
+                                   [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mpolyfills.a9c7843bfd36bc1bfa11.bundle.js[39m[22m    64.8 kB    [1m0, 4[39m[22m  [1m[32m[39m[22mpolyfills
+     [1m[32mmain.7301cc9a92fdada7b353.bundle.js[39m[22m  492 bytes    [1m1, 4[39m[22m  [1m[32m[39m[22mmain
+   [1m[32mvendor.b24f2157b0f715abaa90.bundle.js[39m[22m     221 kB    [1m3, 4[39m[22m  [1m[32m[39m[22mvendor
+   [1m[32minline.41eb0b3b7fa9a44cc735.bundle.js[39m[22m    1.46 kB       [1m4[39m[22m  [1m[32m[39m[22minline
+  [1m[32mstyles.d41d8cd98f00b204e980.bundle.css[39m[22m    0 bytes    [1m2, 4[39m[22m  [1m[32m[39m[22mstyles
+chunk    {[1m[33m0[39m[22m} [1m[32mpolyfills.a9c7843bfd36bc1bfa11.bundle.js[39m[22m (polyfills) 177 kB {[1m[33m4[39m[22m}[1m[33m [initial][39m[22m[1m[32m [rendered][39m[22m
+chunk    {[1m[33m1[39m[22m} [1m[32mmain.7301cc9a92fdada7b353.bundle.js[39m[22m (main) 668 bytes {[1m[33m3[39m[22m}[1m[33m [initial][39m[22m[1m[32m [rendered][39m[22m
+chunk    {[1m[33m2[39m[22m} [1m[32mstyles.d41d8cd98f00b204e980.bundle.css[39m[22m (styles) 69 bytes {[1m[33m4[39m[22m}[1m[33m [initial][39m[22m[1m[32m [rendered][39m[22m
+chunk    {[1m[33m3[39m[22m} [1m[32mvendor.b24f2157b0f715abaa90.bundle.js[39m[22m (vendor) 849 kB[1m[33m [initial][39m[22m[1m[32m [rendered][39m[22m
+chunk    {[1m[33m4[39m[22m} [1m[32minline.41eb0b3b7fa9a44cc735.bundle.js[39m[22m (inline) 0 bytes[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+
+[1m[33mWARNING in polyfills.a9c7843bfd36bc1bfa11.bundle.js from UglifyJs
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_0_core_js_es6_reflect___default [polyfills.a9c7843bfd36bc1bfa11.bundle.js:1245,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_1_core_js_es7_reflect___default [polyfills.a9c7843bfd36bc1bfa11.bundle.js:1247,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_2_zone_js_dist_zone___default [polyfills.a9c7843bfd36bc1bfa11.bundle.js:1249,25]
+Condition always true [polyfills.a9c7843bfd36bc1bfa11.bundle.js:1443,2]
+Side effects in initialization of unused variable msie [polyfills.a9c7843bfd36bc1bfa11.bundle.js:2697,12]
+Side effects in initialization of unused variable targetZone [polyfills.a9c7843bfd36bc1bfa11.bundle.js:2976,20]
+Dropping unused variable typeOfDelegate [polyfills.a9c7843bfd36bc1bfa11.bundle.js:3131,24]
+Side effects in initialization of unused variable showError [polyfills.a9c7843bfd36bc1bfa11.bundle.js:2036,16]
+Condition left of || always false [polyfills.a9c7843bfd36bc1bfa11.bundle.js:2304,38]
+Condition left of || always false [polyfills.a9c7843bfd36bc1bfa11.bundle.js:2307,38]
+Non-strict equality against boolean: == false [polyfills.a9c7843bfd36bc1bfa11.bundle.js:4063,29]
+Side effects in initialization of unused variable Zone$1 [polyfills.a9c7843bfd36bc1bfa11.bundle.js:1455,4][39m[22m
+
+[1m[33mWARNING in main.7301cc9a92fdada7b353.bundle.js from UglifyJs
+Dropping unreachable code [main.7301cc9a92fdada7b353.bundle.js:50,0]
+Dropping unreachable code [main.7301cc9a92fdada7b353.bundle.js:53,0]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_0__angular_core__ [main.7301cc9a92fdada7b353.bundle.js:42,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_1__environments_environment__ [main.7301cc9a92fdada7b353.bundle.js:43,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ [main.7301cc9a92fdada7b353.bundle.js:44,25][39m[22m
+
+[1m[33mWARNING in vendor.b24f2157b0f715abaa90.bundle.js from UglifyJs
+Dropping unused function isPlatformBrowser [vendor.b24f2157b0f715abaa90.bundle.js:4036,9]
+Dropping unused function isPlatformServer [vendor.b24f2157b0f715abaa90.bundle.js:4045,9]
+Dropping unused function isPlatformWorkerApp [vendor.b24f2157b0f715abaa90.bundle.js:4054,9]
+Dropping unused function isPlatformWorkerUi [vendor.b24f2157b0f715abaa90.bundle.js:4063,9]
+Side effects in initialization of unused variable LOCATION_INITIALIZED [vendor.b24f2157b0f715abaa90.bundle.js:240,4]
+Dropping unused variable NgFor [vendor.b24f2157b0f715abaa90.bundle.js:1907,4]
+Side effects in initialization of unused variable VERSION [vendor.b24f2157b0f715abaa90.bundle.js:4081,4]
+Dropping unreachable code [vendor.b24f2157b0f715abaa90.bundle.js:13466,4]
+Declarations in unreachable code! [vendor.b24f2157b0f715abaa90.bundle.js:13466,4]
+Dropping unreachable code [vendor.b24f2157b0f715abaa90.bundle.js:17716,12]
+Declarations in unreachable code! [vendor.b24f2157b0f715abaa90.bundle.js:17716,12]
+Dropping unused function isDefaultChangeDetectionStrategy [vendor.b24f2157b0f715abaa90.bundle.js:4926,9]
+Dropping unused function destroyPlatform [vendor.b24f2157b0f715abaa90.bundle.js:8616,9]
+Dropping unused function registerModuleFactory [vendor.b24f2157b0f715abaa90.bundle.js:9713,9]
+Dropping unused function getModuleFactory [vendor.b24f2157b0f715abaa90.bundle.js:9731,9]
+Dropping unused function asNativeElements [vendor.b24f2157b0f715abaa90.bundle.js:10732,9]
+Dropping unused function unwrapValue [vendor.b24f2157b0f715abaa90.bundle.js:12795,9]
+Dropping unused function createRendererType2 [vendor.b24f2157b0f715abaa90.bundle.js:12813,9]
+Dropping unused function interpolate [vendor.b24f2157b0f715abaa90.bundle.js:13243,9]
+Dropping unused function inlineInterpolate [vendor.b24f2157b0f715abaa90.bundle.js:13273,9]
+Dropping unused function anchorDef [vendor.b24f2157b0f715abaa90.bundle.js:13332,9]
+Dropping unused function elementDef [vendor.b24f2157b0f715abaa90.bundle.js:13382,9]
+Dropping unused function moduleProvideDef [vendor.b24f2157b0f715abaa90.bundle.js:13724,9]
+Dropping unused function moduleDef [vendor.b24f2157b0f715abaa90.bundle.js:13736,9]
+Dropping unused function createComponentFactory [vendor.b24f2157b0f715abaa90.bundle.js:14100,9]
+Dropping unused function getComponentViewDefinitionFactory [vendor.b24f2157b0f715abaa90.bundle.js:14107,9]
+Dropping unused function nodeValue [vendor.b24f2157b0f715abaa90.bundle.js:14627,9]
+Dropping unused function directiveDef [vendor.b24f2157b0f715abaa90.bundle.js:14946,9]
+Dropping unused function pipeDef [vendor.b24f2157b0f715abaa90.bundle.js:14975,9]
+Dropping unused function providerDef [vendor.b24f2157b0f715abaa90.bundle.js:14987,9]
+Dropping unused function queryDef [vendor.b24f2157b0f715abaa90.bundle.js:15524,9]
+Dropping unused function ngContentDef [vendor.b24f2157b0f715abaa90.bundle.js:15730,9]
+Dropping unused function purePipeDef [vendor.b24f2157b0f715abaa90.bundle.js:15783,9]
+Dropping unused function pureArrayDef [vendor.b24f2157b0f715abaa90.bundle.js:15791,9]
+Dropping unused function pureObjectDef [vendor.b24f2157b0f715abaa90.bundle.js:15798,9]
+Dropping unused function textDef [vendor.b24f2157b0f715abaa90.bundle.js:16041,9]
+Dropping unused function viewDef [vendor.b24f2157b0f715abaa90.bundle.js:16211,9]
+Dropping unused function overrideProvider [vendor.b24f2157b0f715abaa90.bundle.js:18097,9]
+Dropping unused function clearProviderOverrides [vendor.b24f2157b0f715abaa90.bundle.js:18104,9]
+Dropping unused function createNgModuleFactory [vendor.b24f2157b0f715abaa90.bundle.js:18114,9]
+Dropping unused function trigger$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19021,9]
+Dropping unused function animate$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19030,9]
+Dropping unused function group$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19038,9]
+Dropping unused function sequence$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19046,9]
+Dropping unused function style$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19054,9]
+Dropping unused function state$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19063,9]
+Dropping unused function keyframes$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19071,9]
+Dropping unused function transition$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19080,9]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default [vendor.b24f2157b0f715abaa90.bundle.js:4122,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_merge___default [vendor.b24f2157b0f715abaa90.bundle.js:4124,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_share___default [vendor.b24f2157b0f715abaa90.bundle.js:4126,25]
+Side effects in initialization of unused variable __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default [vendor.b24f2157b0f715abaa90.bundle.js:4128,25]
+Side effects in initialization of unused variable ANALYZE_FOR_ENTRY_COMPONENTS [vendor.b24f2157b0f715abaa90.bundle.js:4845,4]
+Side effects in initialization of unused variable ContentChildren [vendor.b24f2157b0f715abaa90.bundle.js:4873,4]
+Side effects in initialization of unused variable ContentChild [vendor.b24f2157b0f715abaa90.bundle.js:4883,4]
+Side effects in initialization of unused variable ViewChildren [vendor.b24f2157b0f715abaa90.bundle.js:4893,4]
+Side effects in initialization of unused variable ViewChild [vendor.b24f2157b0f715abaa90.bundle.js:4903,4]
+Side effects in initialization of unused variable Component [vendor.b24f2157b0f715abaa90.bundle.js:4953,4]
+Side effects in initialization of unused variable Output [vendor.b24f2157b0f715abaa90.bundle.js:4977,4]
+Side effects in initialization of unused variable HostBinding [vendor.b24f2157b0f715abaa90.bundle.js:4984,4]
+Side effects in initialization of unused variable HostListener [vendor.b24f2157b0f715abaa90.bundle.js:4991,4]
+Dropping unused variable CUSTOM_ELEMENTS_SCHEMA [vendor.b24f2157b0f715abaa90.bundle.js:5007,4]
+Dropping unused variable NO_ERRORS_SCHEMA [vendor.b24f2157b0f715abaa90.bundle.js:5015,4]
+Side effects in initialization of unused variable ViewMetadata [vendor.b24f2157b0f715abaa90.bundle.js:5057,4]
+Dropping unused variable ERROR_COMPONENT_TYPE [vendor.b24f2157b0f715abaa90.bundle.js:5303,4]
+Side effects in initialization of unused variable PACKAGE_ROOT_URL [vendor.b24f2157b0f715abaa90.bundle.js:7230,4]
+Side effects in initialization of unused variable ModuleWithComponentFactories [vendor.b24f2157b0f715abaa90.bundle.js:7278,4]
+Side effects in initialization of unused variable COMPILER_OPTIONS [vendor.b24f2157b0f715abaa90.bundle.js:7377,4]
+Side effects in initialization of unused variable CodegenComponentFactoryResolver [vendor.b24f2157b0f715abaa90.bundle.js:7563,4]
+Dropping unused variable wtfStartTimeRange [vendor.b24f2157b0f715abaa90.bundle.js:7862,4]
+Dropping unused variable wtfEndTimeRange [vendor.b24f2157b0f715abaa90.bundle.js:7869,4]
+Side effects in initialization of unused variable RenderComponentType [vendor.b24f2157b0f715abaa90.bundle.js:9230,4]
+Side effects in initialization of unused variable RenderDebugInfo [vendor.b24f2157b0f715abaa90.bundle.js:9253,4]
+Side effects in initialization of unused variable Renderer2Interceptor [vendor.b24f2157b0f715abaa90.bundle.js:9444,4]
+Side effects in initialization of unused variable RootRenderer [vendor.b24f2157b0f715abaa90.bundle.js:9461,4]
+Side effects in initialization of unused variable NgModuleFactoryLoader [vendor.b24f2157b0f715abaa90.bundle.js:9694,4]
+Side effects in initialization of unused variable moduleFactories [vendor.b24f2157b0f715abaa90.bundle.js:9705,4]
+Side effects in initialization of unused variable EmbeddedViewRef [vendor.b24f2157b0f715abaa90.bundle.js:10484,4]
+Side effects in initialization of unused variable ValueUnwrapper [vendor.b24f2157b0f715abaa90.bundle.js:10861,4]
+Side effects in initialization of unused variable TRANSLATIONS [vendor.b24f2157b0f715abaa90.bundle.js:12440,4]
+Side effects in initialization of unused variable TRANSLATIONS_FORMAT [vendor.b24f2157b0f715abaa90.bundle.js:12444,4]
+Side effects in initialization of unused variable DebugContext [vendor.b24f2157b0f715abaa90.bundle.js:12613,4]
+Dropping unused variable EMPTY_ARRAY [vendor.b24f2157b0f715abaa90.bundle.js:13314,4]
+Dropping unused variable EMPTY_MAP [vendor.b24f2157b0f715abaa90.bundle.js:13315,4]
+Side effects in initialization of unused variable ComponentFactory_ [vendor.b24f2157b0f715abaa90.bundle.js:14110,4]
+Side effects in initialization of unused variable NgModuleFactory_ [vendor.b24f2157b0f715abaa90.bundle.js:18117,4]
+Dropping unused variable AUTO_STYLE$$1 [vendor.b24f2157b0f715abaa90.bundle.js:19014,4]
+Dropping unused function enableDebugTools [vendor.b24f2157b0f715abaa90.bundle.js:24056,9]
+Dropping unused function disableDebugTools [vendor.b24f2157b0f715abaa90.bundle.js:24066,9]
+Side effects in initialization of unused variable AngularProfiler [vendor.b24f2157b0f715abaa90.bundle.js:23978,4]
+Side effects in initialization of unused variable By [vendor.b24f2157b0f715abaa90.bundle.js:24081,4]
+Side effects in initialization of unused variable VERSION [vendor.b24f2157b0f715abaa90.bundle.js:24145,4]
+Dropping unused function __rest [vendor.b24f2157b0f715abaa90.bundle.js:24350,9]
+Dropping unused function __decorate [vendor.b24f2157b0f715abaa90.bundle.js:24360,9]
+Dropping unused function __param [vendor.b24f2157b0f715abaa90.bundle.js:24367,9]
+Dropping unused function __metadata [vendor.b24f2157b0f715abaa90.bundle.js:24371,9]
+Dropping unused function __awaiter [vendor.b24f2157b0f715abaa90.bundle.js:24375,9]
+Dropping unused function __generator [vendor.b24f2157b0f715abaa90.bundle.js:24384,9]
+Dropping unused function __exportStar [vendor.b24f2157b0f715abaa90.bundle.js:24412,9]
+Dropping unused function __spread [vendor.b24f2157b0f715abaa90.bundle.js:24444,9]
+Dropping unused function __asyncGenerator [vendor.b24f2157b0f715abaa90.bundle.js:24454,9]
+Dropping unused function __asyncDelegator [vendor.b24f2157b0f715abaa90.bundle.js:24466,9]
+Dropping unused function __asyncValues [vendor.b24f2157b0f715abaa90.bundle.js:24472,9]
+Side effects in initialization of unused variable __assign [vendor.b24f2157b0f715abaa90.bundle.js:24342,4][39m[22m
+
+[1m[31mERROR in ./src/main.ts
+Module not found: Error: Can't resolve './$$_gendir/app/app.module.ngfactory' in '/Users/bill.bailey/Sites/angular/starwars/src'
+ @ ./src/main.ts 4:0-74
+ @ multi ./src/main.ts[39m[22m
+Child [1msrc/app/app.component.html[39m[22m:
+                                                                   [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/app.component.html[39m[22m  3.2 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/app.component.html[39m[22m 559 bytes[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/item.html[39m[22m:
+                                                               [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/item.html[39m[22m  3.6 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/item.html[39m[22m 959 bytes[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/film.html[39m[22m:
+                                                                     [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/film.html[39m[22m  4.99 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/film.html[39m[22m 2.34 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/person.html[39m[22m:
+                                                                       [1mAsset[39m[22m    [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/person.html[39m[22m  5.1 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/person.html[39m[22m 2.46 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/planet.html[39m[22m:
+                                                                       [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/planet.html[39m[22m  4.27 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/planet.html[39m[22m 1.63 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/species.html[39m[22m:
+                                                                        [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/species.html[39m[22m  4.71 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/species.html[39m[22m 2.06 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/starship.html[39m[22m:
+                                                                         [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/starship.html[39m[22m  4.92 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/starship.html[39m[22m 2.27 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/vehicle.html[39m[22m:
+                                                                        [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/vehicle.html[39m[22m  4.65 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/vehicle.html[39m[22m 2.01 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+         [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mindex.html[39m[22m  3.03 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32mindex.html[39m[22m 354 bytes[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/app.component.css[39m[22m:
+                                                                  [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/app.component.css[39m[22m  5.24 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/app.component.css[39m[22m 2.55 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1msrc/app/item/types/item.css[39m[22m:
+                                                                    [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/item.css[39m[22m  5.46 kB       [1m0[39m[22m  [1m[32m[39m[22m
+    chunk    {[1m[33m0[39m[22m} [1m[32m/Users/bill.bailey/Sites/angular/starwars/src/app/item/types/item.css[39m[22m 2.77 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+Child [1mextract-text-webpack-plugin[39m[22m:
+    chunk    {[1m[33m0[39m[22m} [1m[32mextract-text-webpack-plugin-output-filename[39m[22m 2.42 kB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m

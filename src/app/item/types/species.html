@@ -1,0 +1,81 @@
+<div class="detail">
+  <h2>{{species.name}}</h2>
+
+  <div>
+    <span class="label">Average Height</span>
+    <span class="value">{{species.average_height}}</span>
+  </div>
+
+  <div>
+    <span class="label">Average Lifespan</span>
+    <span class="value">{{species.average_lifespan}}</span>
+  </div>
+
+  <div>
+    <span class="label">Classification</span>
+    <span class="value">{{species.classification}}</span>
+  </div>
+
+  <div>
+    <span class="label">Designation</span>
+    <span class="value">{{species.designation}}</span>
+  </div>
+
+  <div>
+    <span class="label">Eye Colors</span>
+    <span class="value">{{species.eye_colors}}</span>
+  </div>
+
+  <div>
+    <span class="label">Films</span>
+    <span class="value">
+      <app-item-collection
+          [list]="species.films"
+          category="films"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Hair Colors</span>
+    <span class="value">{{species.hair_colors}}</span>
+  </div>
+
+  <div>
+    <span class="label">Homeworld</span>
+    <span class="value">
+      <app-item-collection
+          [list]="[species.homeworld]"
+          category="planets"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Language</span>
+    <span class="value">{{species.language}}</span>
+  </div>
+
+  <div>
+    <span class="label">Name</span>
+    <span class="value">{{species.name}}</span>
+  </div>
+
+  <div>
+    <span class="label">People</span>
+    <span class="value">
+      <app-item-collection
+          [list]="species.people"
+          category="people"
+          (displayItem)="handleDisplayItem($event)">
+      </app-item-collection>
+    </span>
+  </div>
+
+  <div>
+    <span class="label">Skin Colors</span>
+    <span class="value">{{species.skin_colors}}</span>
+  </div>
+</div>

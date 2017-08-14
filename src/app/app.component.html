@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <header>
+    <h1>Star Wars Data Stuffs</h1>
+  </header>
+
+  <section>
+    <app-browse (displayCategory)="displayCategory($event)"></app-browse>
+
+    <main>
+      <p *ngIf="!activeItem && !categoryUrl">Welcome! Choose a category from the left to begin.</p>
+
+      <app-list
+          *ngIf="!activeItem && categoryUrl"
+          [categoryUrl]="categoryUrl"
+          (displayItem)="displayItem($event)">
+      </app-list>
+
+      <app-item
+          *ngIf="activeItem"
+          [item]="activeItem"
+          (displayItem)="displayItem($event)">
+      </app-item>
+    </main>
+  </section>
+</div>

@@ -1,0 +1,12 @@
+.detail > div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.label {
+  font-weight: bold;
+  padding-right: 10px;
+  width: 200px;
+  display: inline-block;
+}
