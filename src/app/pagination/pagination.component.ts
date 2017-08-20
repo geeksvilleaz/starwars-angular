@@ -41,7 +41,7 @@ export class PaginationComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
-    if (this.pages.length) {
+    if (this.pages && this.pages.length) {
       return;
     }
 
@@ -55,13 +55,15 @@ export class PaginationComponent implements OnInit, OnChanges {
   goToPage(page) {
     this.active = page;
     const url = this.url.split('/');
-    url.pop();
-    url[url.length - 1] = `?page=${page}`;
-    this.goTo.emit(url.join('/'));
+    if (url) {
+      url.pop();
+      url[url.length - 1] = `?page=${page}`;
+      this.goTo.emit(url.join('/'));
+    }
   }
 
   goUp(url: string) {
-    if (this.active < this.pages.length && url) {
+    if (this.pages && this.active < this.pages.length && url) {
       this.active++;
       this.goTo.emit(url);
     }

@@ -28,20 +28,6 @@ import { Vehicle } from '../models/vehicle';
         [count]="count"
         [url]="url">
     </app-pagination>
-
-    <div class="pagination">
-      <button
-          [(disabled)]="!previousUrl"
-          (click)="goTo(previousUrl)">
-        Previous
-      </button>
-
-      <button
-          [(disabled)]="!nextUrl"
-          (click)="goTo(nextUrl)">
-        Next
-      </button>
-    </div>
   `,
   styles: [`
     .list {

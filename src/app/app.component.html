@@ -10,7 +10,7 @@
       <p *ngIf="!activeItem && !categoryUrl">Welcome! Choose a category from the left to begin.</p>
 
       <app-list
-          *ngIf="!activeItem && categoryUrl"
+          *ngIf="!activeItem && !!categoryUrl"
           [categoryUrl]="categoryUrl"
           (displayItem)="displayItem($event)">
       </app-list>
